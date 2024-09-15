@@ -708,7 +708,7 @@ local Options = getgenv().Linoria.Options
 local Toggles = getgenv().Linoria.Toggles
 
 local Window = Library:CreateWindow({
-	Title = "mspaint v2",
+	Title = "Admin Panel BETA",
 	Center = true,
 	AutoShow = true,
 	Resizable = true,
@@ -792,7 +792,7 @@ function Script.Functions.GetNearestAssetWithCondition(condition: () -> ())
 end
 
 function Script.Functions.Warn(message: string)
-    warn("WARN - mspaint:", message)
+    warn("WARN - "Admin Panel:", message)
 end
 
 function Script.Functions.ESP(args: ESP)
@@ -2513,9 +2513,9 @@ task.spawn(function()
                 end
 
                 if Library.IsMobile then
-                    Script.Functions.Alert("To bypass the anticheat, you must interact with a ladder. Ladder ESP has been enabled", progressPart)
+                    Script.Functions.Alert("We need a ladder to bypass anticheat, we gave you ESP.", progressPart)
                 else
-                    Script.Functions.Alert("To bypass the anticheat, you must interact with a ladder. For your convenience, Ladder ESP has been enabled", progressPart)
+                    Script.Functions.Alert("We need a ladder to bypass anticheat, we gave you ESP.", progressPart)
                 end
                 
 
