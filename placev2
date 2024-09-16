@@ -708,7 +708,7 @@ local Options = getgenv().Linoria.Options
 local Toggles = getgenv().Linoria.Toggles
 
 local Window = Library:CreateWindow({
-	Title = "Admin Panel BETA",
+	Title = "Lolhax",
 	Center = true,
 	AutoShow = true,
 	Resizable = true,
