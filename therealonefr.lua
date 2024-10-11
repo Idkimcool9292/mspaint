@@ -738,7 +738,7 @@ local Options = getgenv().Linoria.Options
 local Toggles = getgenv().Linoria.Toggles
 
 local Window = Library:CreateWindow({
-	Title = "Lolhax V2 [ Solara Support By Ivan ]",
+	Title = "Lolhax V4",
 	Center = true,
 	AutoShow = true,
 	Resizable = true,
@@ -4845,7 +4845,7 @@ MenuGroup:AddDivider()
 MenuGroup:AddLabel("Menu bind"):AddKeyPicker("MenuKeybind", { Default = "RightShift", NoUI = true, Text = "Menu keybind" })
 MenuGroup:AddButton("Join Discord Server", function()
     local Inviter = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
-	Inviter.Join("discord.gg/porn")
+	Inviter.Join("discord.gg/lolhax")
 	Inviter.Prompt({
 		name = "Lolhax",
 		invite = "discord.gg/lolhax",
