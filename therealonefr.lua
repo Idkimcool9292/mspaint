@@ -4847,8 +4847,8 @@ MenuGroup:AddButton("Join Discord Server", function()
     local Inviter = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
 	Inviter.Join("discord.gg/porn")
 	Inviter.Prompt({
-		name = "Ivan's Lolhax",
-		invite = "discord.gg/porn",
+		name = "Lolhax",
+		invite = "discord.gg/lolhax",
 	})
 end)
 MenuGroup:AddButton("Unload", function() Library:Unload() end)
@@ -4875,6 +4875,6 @@ ThemeManager:ApplyToTab(Tabs["UI Settings"])
 
 SaveManager:LoadAutoloadConfig()
 
-Script.Functions.Alert("Thank U For Using Ivan's Lolhax There Might Be Bugs Because You're Executor Is Trash.", 5)
+Script.Functions.Alert("real lolhax v4.", 5)
 Script.Functions.Wait(1000)
-Script.Functions.Alert("Ivans Executor Better",9)
+Script.Functions.Alert("free no time here",9)
